@@ -100,7 +100,7 @@ const BookingRegistration = () => {
     const handleRegisterSubmit = (e) => {
         e.preventDefault();
         const newUserInfo = { ...loggedInUser, ...selected }
-        fetch('https://haunted-nightmare-25196.herokuapp.com/tour-booking', {
+        fetch('https://infinite-tor-55893.herokuapp.com/tour-booking', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

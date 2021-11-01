@@ -4,7 +4,7 @@ const PackageDetailsBanner = () => {
     const {packageName} = useParams()
     const [singlePackageData  , setSinglePackageData] = useState([]);
     useEffect(() =>{
-        fetch(`https://haunted-nightmare-25196.herokuapp.com/packages/${packageName}`)
+        fetch(`https://infinite-tor-55893.herokuapp.com/packages/${packageName}`)
         .then(res => res.json())
         .then(data => setSinglePackageData(data))
     } , [])

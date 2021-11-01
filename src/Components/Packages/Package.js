@@ -5,7 +5,7 @@ const Package = () => {
     const [packageData, setPackageData] = useState([]);
 
     useEffect(() => {
-        fetch('https://haunted-nightmare-25196.herokuapp.com/packages')
+        fetch('https://infinite-tor-55893.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => setPackageData(data))
     }, [])

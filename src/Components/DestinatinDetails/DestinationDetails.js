@@ -19,7 +19,7 @@ const DestinationDetails = () => {
     ];
 
     useEffect(() => {
-        fetch(`https://haunted-nightmare-25196.herokuapp.com/destination/${name}`)
+        fetch(`https://infinite-tor-55893.herokuapp.com/destination/${name}`)
             .then(res => res.json())
             .then(data => setSingleData(data));
     }, [])

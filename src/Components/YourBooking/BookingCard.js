@@ -30,7 +30,7 @@ const BookingCard = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
 
     useEffect(() => {
-        fetch(`https://haunted-nightmare-25196.herokuapp.com/tour-booking?email=${loggedInUser.email}`)
+        fetch(`https://infinite-tor-55893.herokuapp.com/tour-booking?email=${loggedInUser.email}`)
             .then(res => res.json())
             .then(data => setBooking(data))
     }, [])
@@ -42,7 +42,7 @@ const BookingCard = () => {
         const proceed = window.confirm("Are Your Sure to Delete this Item ? ")
 
         if (proceed) {
-            fetch(`https://haunted-nightmare-25196.herokuapp.com/tour-booking/${id}`, {
+            fetch(`https://infinite-tor-55893.herokuapp.com/tour-booking/${id}`, {
                 method: "delete",
             })
                 .then(res => res.json())

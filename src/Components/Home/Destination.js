@@ -6,7 +6,7 @@ const Destination = () => {
     const [singleData, setSingleData] = useState([]);
 
     useEffect(() => {
-        fetch('https://haunted-nightmare-25196.herokuapp.com/destination')
+        fetch('https://infinite-tor-55893.herokuapp.com/destination')
             .then(res => res.json())
             .then(data => setDestination(data))
     }, [])

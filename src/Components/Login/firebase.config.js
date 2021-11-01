@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDNHOabHRxowiJoXuCledaorXwEovVbHD8",
-    authDomain: "travel-agency-8e55c.firebaseapp.com",
-    projectId: "travel-agency-8e55c",
-    storageBucket: "travel-agency-8e55c.appspot.com",
-    messagingSenderId: "546227687868",
-    appId: "1:546227687868:web:05e653d556a6926d5ddbb9"
-};
+    apiKey: "AIzaSyAPU52IduSSXbf2sM5JbFiSb_T1hEyzSDs",
+    authDomain: "travel-agency-35c03.firebaseapp.com",
+    projectId: "travel-agency-35c03",
+    storageBucket: "travel-agency-35c03.appspot.com",
+    messagingSenderId: "428357810856",
+    appId: "1:428357810856:web:64ddb1b231fbcfab22e09d"
+  };
 
 export default firebaseConfig;

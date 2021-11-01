@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import PackageData from '../../Data/DestinationData';
 import packageOne from '../../images/package-1.jpg';
 import packageTwo from '../../images/package-2.jpg';
 import packageThree from '../../images/package-3.jpg';
 
 
-
 const OurPackages = () => {
     const [packagesData, setPackagesData] = useState([]);
+
+    
 
     // const packagesData = [
     //     { name: "Hong Kong", img: packageOne, continent: "Asia" },
@@ -16,18 +18,18 @@ const OurPackages = () => {
     // ];
 
     useEffect(() => {
-        fetch('https://haunted-nightmare-25196.herokuapp.com/packages')
+        fetch('https://infinite-tor-55893.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => setPackagesData(data))
     })
 
     const handleInsertData = (e) => {
-        fetch('https://haunted-nightmare-25196.herokuapp.com/packages', {
+        fetch('https://infinite-tor-55893.herokuapp.com/packages', {
             method: "post",
             headers: {
                 "content-type": "application/json"
             },
-            body: JSON.stringify()
+            body: JSON.stringify(PackageData)
         })
         e.preventDefault()
     }
