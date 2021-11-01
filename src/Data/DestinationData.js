@@ -1,0 +1,28 @@
+const DestinationData = [
+    { img: "https://i.postimg.cc/2SKC3w2q/destination-1.jpg", name: "Europe" , 
+        desImage:"http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-5.jpg",
+        descriptionContent:"The coronavirus pandemic has affected the tourism industry. Before 2020, Europe was a great market for attracting tourists. European tourists were also interested in holiday destinations in developing countries.We expect rural destinations to recover faster from the pandemic than urban destinations. Tourists want to travel to outdoor places with fewer people. We also expect that domestic and regional travel will become more popular. When outbound tourism increases again, we do not expect interests to have changed much. We expect destinations that are closer to Europe to recover faster.Read our market information and tips carefully. They can help you attract tourists from Europe.", 
+    },
+    { img: "https://i.postimg.cc/MTkxmGkq/destination-2.jpg", name: "Thailand",
+        desImage:"https://i.postimg.cc/pV4KczSj/thailand.jpg",
+        descriptionContent:"Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew). Nearby beach resorts include bustling Pattaya and fashionable Hua Hin", 
+    },
+    { img: "https://i.postimg.cc/fbSDd9r8/destination-3.jpg", name: "Asia" ,
+        desImage:"https://i.postimg.cc/28Whs3pK/asia.jpg",
+        descriptionContent:"Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew). Nearby beach resorts include bustling Pattaya and fashionable Hua Hin", 
+    },
+    { img: "https://i.postimg.cc/QCm3DkFd/destination-4.jpg", name: "Italy" ,
+        desImage:"https://i.postimg.cc/yxM9JCRj/italy.jpg",
+        descriptionContent:"taly, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s David and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital", 
+    },
+    { img: "https://i.postimg.cc/3RghSH7p/destination-5.jpg", name: "Netherlands" ,
+        desImage:"https://i.postimg.cc/gjX8k2xr/natherland.jpg",
+        descriptionContent:"The Netherlands, a country in northwestern Europe, is known for a flat landscape of canals, tulip fields, windmills and cycling routes. Amsterdam, the capital, is home to the Rijksmuseum, Van Gogh Museum and the house where Jewish diarist Anne Frank hid during WWII. Canalside mansions and a trove of works from artists including Rembrandt and Vermeer remain from the city's 17th-century Golden Age", 
+    },
+    { img: "https://i.postimg.cc/D0nTRYyN/destination-6.jpg", name: "United States" ,
+        desImage:"https://i.postimg.cc/pV4KczSj/thailand.jpg",
+        descriptionContent:"The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking", 
+    },
+];
+
+export default DestinationData;

@@ -1,0 +1,36 @@
+/* global style */
+
+.text-justify {
+  text-align: justify;
+}
+.containers {
+  padding: 0 3%;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  background-color: #1bbc9b;
+  color: #fff;
+  padding: 13px 59px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
+.App {
+  text-align: center;
+}
+.nav-link.nav-active {
+  color: #1bbc9b !important;
+  border-bottom: 3px solid #1bbc9b;
+}
+
+@media only screen and (max-width: 576px) {
+  .containers {
+    padding: 0;
+  }
+  .nav-link.nav-active {
+    color: #1bbc9b !important;
+    border: none;
+  }
+}

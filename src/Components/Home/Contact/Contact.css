@@ -1,0 +1,21 @@
+.contact-form input{
+    width: 100%;
+    background: #F9F9F9;
+    border: none;
+    padding: 9px 0;
+    border-radius: 45px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    background: #F9F9F9;
+    border-radius: 45px;
+}
+.send-btn{
+    background: #14B9D5;
+    color: #fff;
+    border: none;
+    padding: 9px 65px;
+    border-radius: 25px;
+
+}

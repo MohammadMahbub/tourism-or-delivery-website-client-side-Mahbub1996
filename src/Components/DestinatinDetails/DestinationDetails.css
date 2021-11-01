@@ -1,0 +1,25 @@
+.destination-details-img img{
+    width: 100%;
+}
+.destination-details-img {
+    margin-top: -555px;
+    position: relative;
+}
+.destination-details-img h3{
+   position: absolute;
+   top: 85%;
+   left: 10%;
+   font-weight: bold;
+}
+.dest-img{
+    background-color: #59BEA4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 576px) {
+    .destination-details-img {
+        margin-top: 0;
+    }
+}
